@@ -26,3 +26,8 @@ const processedNumbers = processArray(inputNumbers);
 const inputStrings = ["My", "Name", "Is", "Paa", "Kwesi"];
 const formattedStrings = formatArrayStrings(inputStrings, processedNumbers);
 console.log(formattedStrings);
+
+module.exports = {
+    processArray,
+    formatArrayStrings
+};
